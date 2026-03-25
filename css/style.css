@@ -1,2 +1,69 @@
+/*TOP NAVIGATION BAR*/
 
+/*The main nav container*/
+#main-navbar {
+  background-color: blue;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  position: relative;
+}
 
+/*The list inside the nav*/
+#main-navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+/*Each list item*/
+#main-navbar ul li{
+  float: left;
+  position: relative;
+  right: 50%;
+}
+
+/*The link inside nav*/
+#main-navbar ul li a{
+  display: block;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
+
+/*Add hover effect to nav links*/
+#main-navbar ul li a:hover{
+  text-decoration: underline overline;
+}
+
+/*SIDEBAR*/
+
+/*The sidebar container*/
+#sidebar {
+  position: fixed;
+  right:0%;
+  background-color: red;
+  height: 100%;
+  width: 20%;
+}
+
+/*The list inside sidebar*/
+#sidebar ul{
+list-style-type: none;
+text-align: center;
+padding: 0;
+}
+
+/*Each sidebar link*/
+#sidebar ul li a{
+  display: block;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+}
